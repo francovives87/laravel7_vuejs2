@@ -1,0 +1,41 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variablesweb';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Font Awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+
+#carouselExampleSlidesOnly .carousel-item img{
+    object-fit: cover;
+    width: 100%;
+    height: 600px !important;
+ }
+
+ .navbar-brand{
+    font-size: 30px;
+ }
+
+ .nav-item {
+     font-size: 18px;
+ }
+
+footer {
+     min-height: 100px;
+     background-color:darkgray;
+ }
+
+ .carousel-inner > .carousel-item > img {
+    width:300px !important;
+    height:200px !important;
+  }
+
+
+ 
